@@ -1,0 +1,5 @@
+CREATE OR REPLACE FUNCTION head() RETURNS TEXT AS $$
+BEGIN
+    RETURN '<div></div>';
+END;
+$$ LANGUAGE plpgsql;

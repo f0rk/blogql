@@ -1,0 +1,9 @@
+blogql is blog software written in (mostly) pl/pgsql
+
+It has very few features (more is less, right?) and looks like no
+thought was given to its styling (not yet, anyway).
+
+It uses Net::Server::HTTP to actually handle client requests. Maybe
+someday I'll figure out how to get the whole thing inside Postgres.
+
+Ryan P. Kelly <rpkelly@cpan.org>
